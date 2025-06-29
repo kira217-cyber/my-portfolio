@@ -51,7 +51,7 @@ Welcome to my personal portfolio website, built with modern web technologies to 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/kira217-cyber/my-portfolio
 cd your-repo-name
 
 # 2. Install dependencies
