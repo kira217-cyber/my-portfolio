@@ -1,12 +1,66 @@
-# React + Vite
+# 🚀 Raihan's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website, built with modern web technologies to showcase my development skills, featured projects, and contact information in a clean and professional design.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [https://rai-7.netlify.app](https://rai-7.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Portfolio Screenshot](https://i.ibb.co/0VqgqgWv/Screenshot-2025-06-29-091441.png) <!-- Replace with actual screenshot path -->
+
+---
+
+## ✨ Features
+
+- 🧭 Fully responsive layout across all devices
+- 🌗 Dark/light mode toggle with DaisyUI
+- 🧑‍💼 Hero section with downloadable resume
+- 🛠️ Skills display with categorized icons and animations
+- 📚 Project showcase with full detail modal and live/GitHub links
+- 📩 Contact form with EmailJS integration
+- 🔝 Scroll-to-top button with smooth animation
+- 🎨 Modern UI using Tailwind CSS + DaisyUI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS, DaisyUI, React Router
+- **Animations**: AOS (Animate On Scroll), Framer Motion
+- **Icons**: React Icons
+- **Email Integration**: EmailJS
+- **Deployment**: Netlify
+
+---
+
+## 🧠 Sections Included
+
+- Navbar (with smooth scroll)
+- Hero / Introduction (with resume button)
+- About Me (with programming journey + hobbies)
+- Skills (with categories: Frontend, Backend, Tools)
+- Projects (minimum 3 projects, each with modal detail)
+- Contact Form (auto email send + form reset)
+- Footer (social links and branding)
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+
+# 2. Install dependencies
+npm install
+
+# 3. Set up .env.local file (for EmailJS)
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+
+# 4. Start development server
+npm run dev
