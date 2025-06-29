@@ -6,7 +6,7 @@ import ScrollToTopButton from '../components/ScrollToTopButton/ScrollToTopButton
 
 const RootLayout = () => {
     return (
-        <div className='md:container mx-auto'>
+        <div className='max-w-7xl mx-auto'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
