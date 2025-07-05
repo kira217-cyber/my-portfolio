@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -11,11 +12,39 @@ const HeroSection = () => {
             I’m <span className="text-primary">Raihan</span>
           </h1>
 
-          <p className="text-lg md:text-xl mb-20">
+          <p className="text-lg md:text-xl">
             I build modern, responsive web applications{" "}
             <br className="hidden md:block" />
             that solve real-world problems.
           </p>
+          <div className="flex flex-col md:flex-row items-center gap-4 text-center text-lg mt-10 mb-10">
+            <a
+                        href="https://www.facebook.com/md.raihan.0202"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:text-primary transition"
+                      >
+                        <FaFacebook size={28} />
+                      </a>
+                      <a
+                        href="https://github.com/kira217-cyber"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:text-primary transition"
+                      >
+                        <FaGithub size={28} />
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/md-raihan-ali-1a62a034a/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:text-primary transition"
+                      >
+                        <FaLinkedin size={28} />
+                      </a>
+
+          </div>
+          
 
           <p className="text-sm uppercase font-medium tracking-wide">
             I design beautifully simple things, <br />

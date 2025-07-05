@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { FaExternalLinkAlt, FaGithub, FaArrowLeft } from "react-icons/fa";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -22,16 +27,26 @@ const ProjectDetails = () => {
   return (
     <div className="min-h-screen py-10 px-4 md:px-10 bg-gradient-to-b hover:cursor-pointer">
       <div className="max-w-4xl mx-auto bg-white dark:bg-base-200 rounded-xl shadow-lg overflow-hidden">
-        <img
-          src={project.image}
-          alt={project.name}
-          className="w-full h-64 object-cover"
-        />
+        <Swiper
+          modules={[Autoplay, Pagination, EffectFade]}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          effect="fade"
+          loop={true}
+          className="w-full h-full"
+        >
+          {project.image.map((img, index) => (
+            <SwiperSlide key={index}>
+              <div className="w-full h-92 flex items-center justify-center">
+                <img src={img} alt="" />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+
         <div className="p-8 space-y-4">
           <h1 className="text-3xl md:text-4xl font-bold">{project.name}</h1>
-          <p className="">
-            {project.description}
-          </p>
+          <p className="">{project.description}</p>
 
           <div className="flex flex-wrap gap-2 mt-3">
             {project.technologies.map((tech) => (
@@ -43,16 +58,12 @@ const ProjectDetails = () => {
 
           <div>
             <h2 className="font-semibold text-lg mt-4">Challenges Faced:</h2>
-            <p className="">
-              {project.challenges}
-            </p>
+            <p className="">{project.challenges}</p>
           </div>
 
           <div>
             <h2 className="font-semibold text-lg mt-4">Future Improvements:</h2>
-            <p className="">
-              {project.futureImprovements}
-            </p>
+            <p className="">{project.futureImprovements}</p>
           </div>
 
           <div className="flex flex-wrap gap-4 mt-6">

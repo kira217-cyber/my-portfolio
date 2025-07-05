@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Creative Agency",
-    "image": "https://i.ibb.co/tp9SCdGM/Screenshot-2025-06-25-012826.png",
+    "image": ["https://i.ibb.co/tp9SCdGM/Screenshot-2025-06-25-012826.png","https://i.ibb.co/Mx0C9jJ1/Screenshot-2025-07-05-142937.png","https://i.ibb.co/8g93cBkH/Screenshot-2025-07-05-143105.png"],
     "technologies": ["React", "Tailwind CSS", "Firebase Auth", "Node.js", "Express.js","MongoDB"],
     "description": "A full-stack agency website where users can book services, view orders, and admins can manage tasks.",
     "liveLink": "https://assignment-ten-e8281.web.app/",
@@ -13,7 +13,7 @@
   {
     "id": "2",
     "name": "Library Zone",
-    "image": "https://i.ibb.co/bjwBS70j/Screenshot-2025-06-25-014203.png",
+    "image": ["https://i.ibb.co/bjwBS70j/Screenshot-2025-06-25-014203.png","https://i.ibb.co/JR88zCjJ/Screenshot-2025-07-05-143240.png","https://i.ibb.co/Q7YkND0z/Screenshot-2025-07-05-143500.png"],
     "technologies": ["React", "Firebase Auth", "Tailwind CSS", "Node.js","Express.js","MongoDB"],
     "description": "A reading community site where users can add books, write reviews, and manage a personal reading list.",
     "liveLink": "https://library-zone.web.app/",
@@ -24,7 +24,7 @@
   {
     "id": "3",
     "name": "Phone Vibe",
-    "image": "https://i.ibb.co/DFBDPF4/Screenshot-2025-06-29-052943.png",
+    "image": ["https://i.ibb.co/DFBDPF4/Screenshot-2025-06-29-052943.png","https://i.ibb.co/rGTmsmFN/Screenshot-2025-07-05-143605.png","https://i.ibb.co/2JBhM0M/Screenshot-2025-07-05-144035.png"],
     "technologies": ["React", "React Router", "Tailwind CSS"],
     "description": "A product showcase site for smartphones featuring product details and responsive design.",
     "liveLink": "https://phone-vibe.netlify.app/",

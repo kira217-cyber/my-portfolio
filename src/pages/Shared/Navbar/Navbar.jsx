@@ -1,22 +1,31 @@
 import { Link, NavLink } from "react-router";
 import ThemeControllar from "../../../components/ThemeControllar/ThemeControllar";
 import { FaCodeBranch } from "react-icons/fa";
+import { FiDownload } from "react-icons/fi";
 
 const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <a href="#skills" className="text-lg text-primary font-bold">Skills</a>
+        <a href="#skills" className="text-lg text-primary font-bold">
+          Skills
+        </a>
       </li>
 
       <li>
-        <a href="#projects" className="text-lg text-primary font-bold">Projects</a>
+        <a href="#projects" className="text-lg text-primary font-bold">
+          Projects
+        </a>
       </li>
       <li>
-        <a href="#about" className="text-lg text-primary font-bold">About</a>
+        <a href="#about" className="text-lg text-primary font-bold">
+          About
+        </a>
       </li>
       <li>
-        <a href="#contact" className="text-lg text-primary font-bold">Contact</a>
+        <a href="#contact" className="text-lg text-primary font-bold">
+          Contact
+        </a>
       </li>
     </>
   );
@@ -61,7 +70,15 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end gap-3">
-          <Link className="btn rounded-sm bg-primary">Resume</Link>
+          {/* <Link className="btn rounded-sm bg-primary">Resume</Link> */}
+          <a
+            href="/resume.pdf"
+            download="Raihan-Resume.pdf"
+            className="btn btn-primary rounded-md px-4 py-2 flex items-center gap-2"
+          >
+            <FiDownload className="text-lg" />
+            Resume
+          </a>
           <ThemeControllar></ThemeControllar>
         </div>
       </div>
