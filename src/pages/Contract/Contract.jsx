@@ -85,10 +85,7 @@ const Contract = () => {
               <FaEnvelope /> raihanbogra697@gmail.com
             </p>
             <p className="flex items-center justify-center gap-2">
-              <FaPhoneAlt /> +880 170 980 0910
-            </p>
-            <p className="flex items-center justify-center gap-2">
-              <FaWhatsapp /> +880 170 980 0910
+              <FaWhatsapp size={22} /> +880 170 980 0910
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section
       data-aos="zoom-in"
       data-aos-duration="1200"
-      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16"
+      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16 mt-10"
     >
       <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left Content */}
