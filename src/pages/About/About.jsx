@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss, SiMongodb, SiFirebase } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss, SiMongodb, SiFirebase, SiExpress, SiDaisyui } from "react-icons/si";
 
 
 
@@ -65,6 +65,18 @@ const About = () => {
             <div className="flex flex-col items-center">
               <SiFirebase className="text-5xl text-orange-400" />
               <p className="mt-2 font-semibold">Firebase Auth</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <SiDaisyui className="text-5xl text-purple-500" />
+              <p className="mt-2 font-semibold">DaisyUI</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <SiExpress className="text-5xl text-gray-700" />
+              <p className="mt-2 font-semibold">Express.js</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <FaNodeJs className="text-5xl text-green-700" />
+              <p className="mt-2 font-semibold">Node.js</p>
             </div>
           </div>
         </div>

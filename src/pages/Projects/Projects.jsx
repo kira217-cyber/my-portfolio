@@ -48,7 +48,7 @@ const Projects = () => {
                 <div className="flex flex-col sm:flex-row gap-3 mt-6">
                   <Link
                     to={`/projectDetails/${proj.id}`}
-                    className="btn btn-primary btn-sm gap-2 flex-1"
+                    className="btn btn-primary btn-outline  gap-2 flex-1"
                   >
                     <FaInfoCircle /> Details
                   </Link>

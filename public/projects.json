@@ -1,6 +1,32 @@
 [
   {
-    "id": "1",
+  "id": "1",
+  "name": "NewsEdge",
+  "image": [
+    "https://i.ibb.co/JjbytG86/1.png",
+    "https://i.ibb.co/hRZb6tDD/2.png",
+    "https://i.ibb.co/ZRzfkrRR/3.png"
+  ],
+  "technologies": [
+    "React",
+    "Firebase Auth",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Stripe",
+    "JWT",
+    "React Query"
+  ],
+  "description": "A modern full-stack newspaper web application with user roles, premium subscription system, admin panel, article publishing, and payment history tracking.",
+  "liveLink": "https://newsedge-fb8f6.web.app/",
+  "githubClient": "https://github.com/programing-hero-b11/newsedge-client-kira217-cyber",
+  "challenges": "Implementing dynamic premium access based on subscription duration, and managing complex admin workflows with article approval and analytics.",
+  "futureImprovements": "Add multi-language support, push notifications for updates, advanced analytics dashboard, and bookmark/save article functionality."
+}
+,
+  {
+    "id": "2",
     "name": "Creative Agency",
     "image": ["https://i.ibb.co/tp9SCdGM/Screenshot-2025-06-25-012826.png","https://i.ibb.co/Mx0C9jJ1/Screenshot-2025-07-05-142937.png","https://i.ibb.co/8g93cBkH/Screenshot-2025-07-05-143105.png"],
     "technologies": ["React", "Tailwind CSS", "Firebase Auth", "Node.js", "Express.js","MongoDB"],
@@ -11,7 +37,7 @@
     "futureImprovements": "Add payment integration, admin dashboard charts, service search and filter features."
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "Library Zone",
     "image": ["https://i.ibb.co/bjwBS70j/Screenshot-2025-06-25-014203.png","https://i.ibb.co/JR88zCjJ/Screenshot-2025-07-05-143240.png","https://i.ibb.co/Q7YkND0z/Screenshot-2025-07-05-143500.png"],
     "technologies": ["React", "Firebase Auth", "Tailwind CSS", "Node.js","Express.js","MongoDB"],
@@ -22,7 +48,7 @@
     "futureImprovements": "Add author bios, book search feature, pagination and admin removal tools."
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "Phone Vibe",
     "image": ["https://i.ibb.co/DFBDPF4/Screenshot-2025-06-29-052943.png","https://i.ibb.co/rGTmsmFN/Screenshot-2025-07-05-143605.png","https://i.ibb.co/2JBhM0M/Screenshot-2025-07-05-144035.png"],
     "technologies": ["React", "React Router", "Tailwind CSS"],

@@ -29,7 +29,7 @@ const Footer = () => {
             href="https://www.facebook.com/md.raihan.0202"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-primary transition"
+            className="hover:text-blue-600 transition duration-300"
           >
             <FaFacebook size={22} />
           </a>
@@ -37,7 +37,8 @@ const Footer = () => {
             href="https://github.com/kira217-cyber"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-primary transition"
+            className="hover:text-gray-800 transition duration-300"
+
           >
             <FaGithub size={22} />
           </a>
@@ -45,17 +46,18 @@ const Footer = () => {
             href="https://www.linkedin.com/in/md-raihan-ali-1a62a034a/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-primary transition"
+            className="hover:text-blue-800 transition duration-300"
           >
             <FaLinkedin size={22} />
           </a>
           <a
             href="mailto:raihanbogra697@gmail.com"
-            className="hover:text-primary transition"
+            className="hover:text-red-600 transition duration-300"
+
           >
             <FaEnvelope size={22} />
           </a>
-          <a href="tel:+8801709800910" className="hover:text-primary transition">
+          <a href="tel:+8801709800910" className="hover:text-green-600 transition duration-300">
             <FaPhoneAlt size={20} />
           </a>
         </div>

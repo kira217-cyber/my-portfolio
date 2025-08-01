@@ -3,7 +3,11 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section data-aos='zoom-in' data-aos-duration="1200" className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16">
+    <section
+      data-aos="zoom-in"
+      data-aos-duration="1200"
+      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16"
+    >
       <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left lg:pl-24">
@@ -19,32 +23,30 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4 text-center text-lg mt-10 mb-10">
             <a
-                        href="https://www.facebook.com/md.raihan.0202"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-primary transition"
-                      >
-                        <FaFacebook size={28} />
-                      </a>
-                      <a
-                        href="https://github.com/kira217-cyber"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-primary transition"
-                      >
-                        <FaGithub size={28} />
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/in/md-raihan-ali-1a62a034a/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="hover:text-primary transition"
-                      >
-                        <FaLinkedin size={28} />
-                      </a>
-
+              href="https://www.facebook.com/md.raihan.0202"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-blue-600 transition duration-300"
+            >
+              <FaFacebook size={28} />
+            </a>
+            <a
+              href="https://github.com/kira217-cyber"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-800 transition duration-300"
+            >
+              <FaGithub size={28} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/md-raihan-ali-1a62a034a/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-blue-800 transition duration-300"
+            >
+              <FaLinkedin size={28} />
+            </a>
           </div>
-          
 
           <p className="text-sm uppercase font-medium tracking-wide">
             I design beautifully simple things, <br />

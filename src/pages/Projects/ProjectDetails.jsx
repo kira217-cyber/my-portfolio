@@ -83,7 +83,7 @@ const ProjectDetails = () => {
             >
               <FaGithub /> GitHub
             </a>
-            <Link to="/" className="btn btn-primary gap-2">
+            <Link to="/" className="btn btn-primary btn-outline gap-2">
               <FaArrowLeft /> Back to Projects
             </Link>
           </div>

@@ -30,7 +30,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
+    
+
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -58,13 +59,13 @@ const Navbar = () => {
               {navLinks}
             </ul>
           </div>
-          <a
-            href=""
+          <Link
+            to="/"
             className="hover:text-primary transition flex gap-1 items-center"
           >
             <FaCodeBranch size={32} />
             <span className="text-2xl">Rai</span>
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
@@ -74,7 +75,7 @@ const Navbar = () => {
           <a
             href="/resume.pdf"
             download="Raihan-Resume.pdf"
-            className="btn btn-primary rounded-md px-4 py-2 flex items-center gap-2"
+            className="btn btn-primary btn-outline rounded-md px-4 py-2 flex items-center gap-2"
           >
             <FiDownload className="text-lg" />
             Resume
@@ -82,7 +83,7 @@ const Navbar = () => {
           <ThemeControllar></ThemeControllar>
         </div>
       </div>
-    </div>
+
   );
 };
 
