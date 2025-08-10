@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import HeroSection from "../../components/HeroSection/HeroSection";
-// import About from "../About/About";
+import About from "../About/About";
 import AOS from "aos";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div >
       <HeroSection></HeroSection>
-      {/* <About></About> */}
+      <About></About>
       <Skills></Skills>
       <Projects></Projects>
       <Contract></Contract>

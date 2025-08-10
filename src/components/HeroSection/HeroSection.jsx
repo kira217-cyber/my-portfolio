@@ -1,12 +1,13 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiDownload } from "react-icons/fi";
 
 const HeroSection = () => {
   return (
     <section
       data-aos="zoom-in"
       data-aos-duration="1200"
-      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16 mt-24 md:mt-10"
+      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16 mt-24 lg:mt-10"
     >
       <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left Content */}
@@ -15,12 +16,25 @@ const HeroSection = () => {
             Hey There, <br />
             I’m <span className="text-primary">Raihan</span>
           </h1>
+          <br />
+          <h1 className="text-xl font-extrabold leading-tight mb-4">
+            A Passionate Frontend Developer 
+          </h1>
 
           <p className="text-lg md:text-xl">
             I build modern, responsive web applications{" "}
             <br className="hidden md:block" />
             that solve real-world problems.
           </p>
+          <br />
+          <a
+            href="/resume.pdf"
+            download="Raihan-Resume.pdf"
+            className="btn btn-primary btn-outline rounded-md px-4 py-2 flex items-center gap-2 md:w-1/2"
+          >
+            <FiDownload className="text-lg" />
+            Resume
+          </a>
           <div className="flex flex-col md:flex-row items-center gap-4 text-center text-lg mt-10 mb-10">
             <a
               href="https://www.facebook.com/md.raihan.0202"

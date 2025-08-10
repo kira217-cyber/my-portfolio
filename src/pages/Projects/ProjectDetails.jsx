@@ -25,7 +25,7 @@ const ProjectDetails = () => {
     return <div className="text-center p-10 text-xl">Loading project...</div>;
 
   return (
-    <div className="min-h-screen py-10 px-4 md:px-10 bg-gradient-to-b hover:cursor-pointer">
+    <div className="min-h-screen py-10 px-4 md:px-10 bg-gradient-to-b mt-14">
       <div className="max-w-4xl mx-auto bg-white dark:bg-base-200 rounded-xl shadow-lg overflow-hidden">
         <Swiper
           modules={[Autoplay, Pagination, EffectFade]}
