@@ -20,14 +20,24 @@
   ],
   "description": "A modern full-stack newspaper web application with user roles, premium subscription system, admin panel, article publishing, and payment history tracking.",
   "liveLink": "https://newsedge-fb8f6.web.app/",
-  "githubClient": "https://github.com/programing-hero-b11/newsedge-client-kira217-cyber",
+  "githubClient": "https://github.com/kira217-cyber/newsedge_client",
   "challenges": "Implementing dynamic premium access based on subscription duration, and managing complex admin workflows with article approval and analytics.",
   "futureImprovements": "Add multi-language support, push notifications for updates, advanced analytics dashboard, and bookmark/save article functionality."
-}
-,
-  {
+},
+{
     "id": "2",
-    "name": "Creative Agency",
+    "name": "Library Zone",
+    "image": ["https://i.ibb.co/bjwBS70j/Screenshot-2025-06-25-014203.png","https://i.ibb.co/JR88zCjJ/Screenshot-2025-07-05-143240.png","https://i.ibb.co/Q7YkND0z/Screenshot-2025-07-05-143500.png"],
+    "technologies": ["React", "Firebase Auth", "Tailwind CSS", "Node.js","Express.js","MongoDB"],
+    "description": "A reading community site where users can add books, write reviews, and manage a personal reading list.",
+    "liveLink": "https://library-zone.web.app/",
+    "githubClient": "https://github.com/kira217-cyber/library_zone_client",
+    "challenges": "Building a realtime book list with Firebase and creating an intuitive review interface.",
+    "futureImprovements": "Add author bios, book search feature, pagination and admin removal tools."
+  },
+  {
+    "id": "3",
+    "name": "Hobby Hub",
     "image": ["https://i.ibb.co/tp9SCdGM/Screenshot-2025-06-25-012826.png","https://i.ibb.co/Mx0C9jJ1/Screenshot-2025-07-05-142937.png","https://i.ibb.co/8g93cBkH/Screenshot-2025-07-05-143105.png"],
     "technologies": ["React", "Tailwind CSS", "Firebase Auth", "Node.js", "Express.js","MongoDB"],
     "description": "A full-stack agency website where users can book services, view orders, and admins can manage tasks.",
@@ -36,17 +46,7 @@
     "challenges": "Integrating Firebase Auth with role-based access control, dynamic service management for admin and users.",
     "futureImprovements": "Add payment integration, admin dashboard charts, service search and filter features."
   },
-  {
-    "id": "3",
-    "name": "Library Zone",
-    "image": ["https://i.ibb.co/bjwBS70j/Screenshot-2025-06-25-014203.png","https://i.ibb.co/JR88zCjJ/Screenshot-2025-07-05-143240.png","https://i.ibb.co/Q7YkND0z/Screenshot-2025-07-05-143500.png"],
-    "technologies": ["React", "Firebase Auth", "Tailwind CSS", "Node.js","Express.js","MongoDB"],
-    "description": "A reading community site where users can add books, write reviews, and manage a personal reading list.",
-    "liveLink": "https://library-zone.web.app/",
-    "githubClient": "https://github.com/programing-hero-b11/library-management-client-kira217-cyber",
-    "challenges": "Building a realtime book list with Firebase and creating an intuitive review interface.",
-    "futureImprovements": "Add author bios, book search feature, pagination and admin removal tools."
-  },
+  
   {
     "id": "4",
     "name": "Phone Vibe",
