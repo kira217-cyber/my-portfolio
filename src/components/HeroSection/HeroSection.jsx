@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section
       data-aos="zoom-in"
       data-aos-duration="1200"
-      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16 mt-10"
+      className="min-h-screen flex items-center bg-base-100 text-base-content px-4 md:px-8 lg:px-16 mt-24 md:mt-10"
     >
       <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left Content */}
@@ -57,12 +57,12 @@ const HeroSection = () => {
         {/* Right Image */}
         <div className="flex-1 relative flex justify-center">
           {/* Background brush effect */}
-          <div className="absolute -z-10 w-96 h-96 bg-[#2E7D81] opacity-30 rounded-full blur-[90px]"></div>
+          <div className="absolute -z-10 w-full h-full bg-[#2E7D81] opacity-30 rounded-full blur-[90px]"></div>
 
           <img
             src="https://i.ibb.co/zVjFcc1n/raihan.png" // Replace with your own image
             alt="Raihan"
-            className="w-64 h-64 hover:cursor-pointer md:w-[350px] md:h-[350px] object-cover rounded-full border-[6px] border-primary shadow-xl"
+            className="w-full h-full hover:cursor-pointer md:w-[350px] md:h-[350px] object-cover rounded-full border-[6px] border-primary shadow-xl"
           />
         </div>
       </div>
