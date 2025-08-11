@@ -44,7 +44,7 @@ const Contract = () => {
           Contact Me
         </h2>
 
-        <div className="bg-white dark:bg-base-200 rounded-2xl shadow-lg p-8">
+        <div className="dark:bg-base-200 rounded-2xl shadow-lg p-8">
           <form ref={form} onSubmit={sendEmail} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <input
@@ -75,7 +75,7 @@ const Contract = () => {
               required
               className="textarea textarea-bordered w-full min-h-[150px]"
             ></textarea>
-            <button type="submit" className="btn btn-primary btn-wide text-lg">
+            <button type="submit" className="btn btn-primary btn-outline btn-wide text-lg">
               Send Message
             </button>
           </form>

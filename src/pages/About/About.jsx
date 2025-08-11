@@ -17,7 +17,7 @@ const About = () => {
         </h2>
 
         {/* Main Content Box */}
-        <div className="bg-white dark:bg-base-200 rounded-xl shadow-xl p-8 md:p-12 transition-transform duration-500 hover:scale-[1.02]">
+        <div className="dark:bg-base-200 rounded-xl shadow-xl p-8 md:p-12 transition-transform duration-500 hover:scale-[1.02]">
           {/* Text Content */}
           <div className="space-y-5 text-lg leading-relaxed">
             <p>

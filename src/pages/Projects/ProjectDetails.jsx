@@ -26,7 +26,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="min-h-screen py-10 px-4 md:px-10 bg-gradient-to-b mt-14">
-      <div className="max-w-4xl mx-auto bg-white dark:bg-base-200 rounded-xl shadow-lg overflow-hidden">
+      <div className="max-w-4xl mx-auto dark:bg-base-200 rounded-xl shadow-lg overflow-hidden">
         <Swiper
           modules={[Autoplay, Pagination, EffectFade]}
           autoplay={{ delay: 5000, disableOnInteraction: false }}

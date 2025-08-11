@@ -78,11 +78,11 @@ const Skills = () => {
           My Skills
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 dark:bg-base-200">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-white hover:cursor-pointer dark:bg-base-200 p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300"
+              className="hover:cursor-pointer dark:bg-base-200 p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >

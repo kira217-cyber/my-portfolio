@@ -21,11 +21,11 @@ const Projects = () => {
           My Projects
         </h2>
 
-        <div className="space-y-16 hover:cursor-pointer">
+        <div className="space-y-16 hover:cursor-pointer dark:bg-base-200">
           {projects.map((proj, i) => (
             <div
               key={proj.id}
-              className="flex flex-col lg:flex-row bg-white dark:bg-base-200 rounded-xl shadow-lg overflow-hidden transition-all duration-500"
+              className="flex flex-col lg:flex-row dark:bg-base-200 rounded-xl shadow-lg overflow-hidden transition-all duration-500"
               data-aos="fade-up"
               data-aos-delay={i * 100}
             >
